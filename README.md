@@ -7,9 +7,18 @@ This repository contains code and models from the study:
 
 ## Contents
 
-- `ML.py` – Complete ML pipeline
-- `final_model_SVM_original.joblib` – SVM trained on original dataset
-- `final_model_SVM_dist50.joblib` – SVM trained on augmented dataset (50% interpolation distance)
+**Pipeline Scripts**
+- `Filtering.py` – Applies FAB/FAT credibility filtering to the CALPHAD dataset
+- `Train Test Split.py` – Stratified 80/20 train/test split by phase score
+- `Data Augmentation.py` - Lever-rule-based interpolation to generate augmented compositions
+- `Descriptors.py` – Computes 20 physics-based compositional descriptors
+- `ML.py` – Full ML pipeline: Optuna hyperparameter tuning, training, and evaluation
+
+**Trained Models**
+- `svm_ter0_dist0_model.pkl` – SVM trained on unfiltered dataset, no augmentation
+- `svm_ter0_dist30_model.pkl` – SVM trained on unfiltered dataset, augmentation distance = 30%
+- `svm_ter40_dist0_model.pkl` – SVM trained on FAT ≥ 40% dataset, no augmentation
+- `svm_ter40_dist30_model.pkl` – SVM trained on FAT ≥ 40% dataset, augmentation distance = 30%
 
 **Additional results** – including models for KNN, RF, GB, and SVM across all augmentation distances – are available upon request.
 
