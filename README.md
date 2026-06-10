@@ -18,7 +18,7 @@ This repository contains code and models from the study:
 
 ## Reference
 
-If using this work, please cite our paper
+If using this work, please cite our paper: https://doi.org/10.1016/j.commatsci.2026.114834
 
 ## 📧 Contact
 
