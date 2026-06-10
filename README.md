@@ -14,12 +14,6 @@ This repository contains code and models from the study:
 - `Descriptors.py` – Computes 20 physics-based compositional descriptors
 - `ML.py` – Full ML pipeline: Optuna hyperparameter tuning, training, and evaluation
 
-**Trained Models**
-- `svm_ter0_dist0_model.pkl` – SVM trained on unfiltered dataset, no augmentation
-- `svm_ter0_dist30_model.pkl` – SVM trained on unfiltered dataset, augmentation distance = 30%
-- `svm_ter40_dist0_model.pkl` – SVM trained on FAT ≥ 40% dataset, no augmentation
-- `svm_ter40_dist30_model.pkl` – SVM trained on FAT ≥ 40% dataset, augmentation distance = 30%
-
 **Additional results** – including models for KNN, RF, GB, and SVM across all augmentation distances – are available upon request.
 
 ## Reference
