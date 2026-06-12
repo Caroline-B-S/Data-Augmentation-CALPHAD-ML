@@ -14,8 +14,6 @@ This repository contains code and models from the study:
 - `Descriptors.py` – Computes 20 physics-based compositional descriptors
 - `ML.py` – Full ML pipeline: Optuna hyperparameter tuning, training, and evaluation
 
-**Additional results** – including models for KNN, RF, GB, and SVM across all augmentation distances – are available upon request.
-
 ## Reference
 
 If using this work, please cite our paper: https://doi.org/10.1016/j.commatsci.2026.114834
